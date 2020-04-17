@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 //import { FaPhone, FaMailBulk } from "react-icons/fa";
-import { MdContactMail, MdPhoneAndroid, FaTelegram } from "react-icons/all";
+import {
+  MdContactMail,
+  MdPhoneAndroid,
+  FaTelegram,
+  MdAddLocation,
+} from "react-icons/all";
 
 import "../Contact/Contact.css";
 
@@ -58,6 +63,18 @@ class Contact extends Component {
                       <FaTelegram />
                     </div>
                     <div className="contact-text">@NehaSetty</div>
+                  </div>
+                </ListItemContent>
+              </ListItem>
+              <ListItem>
+                <ListItemContent
+                  style={{ fontSize: "30px", fontFamily: "Anton" }}
+                >
+                  <div className="contact-box">
+                    <div className="contact-icons">
+                      <MdAddLocation />
+                    </div>
+                    <div className="contact-text">Copenhagen, Denmark</div>
                   </div>
                 </ListItemContent>
               </ListItem>
