@@ -1,0 +1,18 @@
+.resume-right-col {
+  background: #27221f;
+  color: white !important;
+  padding: 2em;
+}
+
+.mdl-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto 0 auto;
+  align-items: stretch;
+  color: white !important;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(216, 35, 171);
+}
