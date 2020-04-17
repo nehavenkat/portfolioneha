@@ -1,19 +1,16 @@
 import React, { Component } from "react";
-// import { Grid, Cell } from "react-mdl";
-import { Col } from "reactstrap";
-//import technology from "../../Images/technology.jpg";
 import "../LandingPage/LandingPage.css";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { Grid, Cell } from "react-mdl";
 
 export default class LandingPage extends Component {
   render() {
     return (
       <>
-        <div className="landing-grid">
+        <Grid className="landing-grid">
           {/* <img className="bg" src={technology} alt="technology" /> */}
-          <Col col={12}>
+          <Cell col={12}>
             <img
-              // src="https://media-exp1.licdn.com/dms/image/C5603AQFIdTtCw3JiVQ/profile-displayphoto-shrink_200_200/0?e=1592438400&v=beta&t=wh3K-sFIjNPn9gpz1EDFGY2_EoIdsOdaFyN0Skfi9-0"
               src="https://nofiredrills.com/wp-content/uploads/2016/10/myavatar.png"
               alt="avatar"
               className="avatar-img"
@@ -56,8 +53,8 @@ export default class LandingPage extends Component {
                 </div>
               </div>
             </div>
-          </Col>
-        </div>
+          </Cell>
+        </Grid>
       </>
     );
   }
