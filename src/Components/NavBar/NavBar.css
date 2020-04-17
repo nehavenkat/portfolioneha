@@ -1,0 +1,46 @@
+.header-title {
+  display: block;
+  color: rgb(255, 255, 255);
+  line-height: 64px;
+  padding: 0 24px;
+}
+/* .mdl-layout__header {
+  background-color: transparent !important;
+}
+.mdl-navigation__link {
+  color: white !important;
+}
+.nav-cv {
+  color: black;
+  font-weight: bolder;
+  font-size: 24px;
+  text-decoration: none !important;
+}
+.nav-cv:hover {
+  text-decoration: underline;
+}
+.mdl-layout-title {
+  color: black !important;
+}
+#nav-drawer {
+  color: black !important;
+}
+.drawer-div {
+  color: black !important;
+}
+.spacer {
+  flex-grow: 1;
+}
+.header-title {
+  color: black;
+  font-size: 32px;
+} */
+/* .navbar-brand {
+  color: black;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  color: black;
+}
+.nav-link {
+  text-decoration: none !important;
+} */
