@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import "../LandingPage/LandingPage.css";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { Grid, Cell } from "react-mdl";
+// import Banner from "../Images/Banner.jpg";
 
 export default class LandingPage extends Component {
   render() {
     return (
       <>
         <Grid className="landing-grid">
-          {/* <img className="bg" src={technology} alt="technology" /> */}
+          {/* <img className="bg" src={Banner} alt="technology" /> */}
           <Cell col={12}>
             <img
               src="https://nofiredrills.com/wp-content/uploads/2016/10/myavatar.png"
