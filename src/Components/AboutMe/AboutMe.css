@@ -1,10 +1,10 @@
 h1,
-h3 {
+h4 {
   text-align: center;
   color: rgb(216, 35, 171);
 }
 .social-links i {
-  color: white;
+  color: rgb(216, 35, 171);
   font-size: 5em;
   padding: 8px;
 }
@@ -15,5 +15,5 @@ h3 {
   margin-left: 20px;
 }
 svg {
-  font-size: x-large;
+  font-size: xx-large !important;
 }

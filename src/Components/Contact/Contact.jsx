@@ -35,7 +35,7 @@ class Contact extends Component {
                     <div className="contact-icons">
                       <MdPhoneAndroid />
                     </div>
-                    <div className="contact-text">(123) 456-7890</div>
+                    <div className="contact-text">(+45) 91601459</div>
                   </div>
                 </ListItemContent>
               </ListItem>

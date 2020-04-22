@@ -20,19 +20,31 @@ export default class AboutMe extends Component {
             <Cell className="resume-right-col" col={6}>
               <h1> Neha Venkat Setty.</h1>
               <p>
-                Hello, I am Neha Setty, residing in Copenhagen, Denamrk.I'm a
-                junior full stack developer, looking to learn and work on
-                creative and innovative ideas. I aim to create high-performance
-                websites and applications that look beautiful on all devices and
-                browsers.
+                {" "}
+                <span>
+                  Hello, I am Neha Setty, residing in Copenhagen, Denamrk.
+                </span>
+                <span>
+                  I am passinated about coding. I have been working with
+                  Strive.School from OCT 2019, a dedicated 6 months Boot Camp
+                  program
+                </span>
+                <span>
+                  I'm a junior full stack developer, looking to learn and work
+                  on creative and innovative ideas. I aim to create
+                  high-performance websites and applications that look beautiful
+                  on all devices and browsers.
+                </span>
               </p>
-              <h3>My Favorite Tools</h3>
+              <h4>Favorite Tools</h4>
               <div className="social-links">
                 <div className="landing-icons">
                   <FaHtml5 />
+                  {/* <div>HTML 5</div> */}
                 </div>
                 <div className="landing-icons">
                   <FaCss3Alt />
+                  {/* <div>CSS 3</div> */}
                 </div>
                 <div className="landing-icons">
                   <FaReact />

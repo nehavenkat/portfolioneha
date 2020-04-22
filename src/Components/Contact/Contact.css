@@ -65,3 +65,6 @@ img {
 .contact-box {
   display: flex;
 }
+.mdl-grid {
+  margin-top: 158px !important;
+}
