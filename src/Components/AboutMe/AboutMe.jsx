@@ -17,7 +17,7 @@ export default class AboutMe extends Component {
         <div className="Container">
           <Grid>
             <Cell col={3}></Cell>
-            <Cell className="resume-right-col" col={6}>
+            <Cell className="right-col" col={6}>
               <h1> Neha Venkat Setty.</h1>
               <p>
                 {" "}

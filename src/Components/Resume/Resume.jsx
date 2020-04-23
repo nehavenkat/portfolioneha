@@ -10,16 +10,7 @@ class Resume extends Component {
     return (
       <div className="container">
         <Grid>
-          <Cell col={2}>
-            {/* <div style={{ textAlign: "center" }}>
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C5603AQFIdTtCw3JiVQ/profile-displayphoto-shrink_100_100/0?e=1592438400&v=beta&t=vBVF1J_8CktvJG90CR_B8hovNw9AGzo-gSZ7N8KRrAQ"
-                alt="avatar"
-                style={{ height: "200px" }}
-              />
-            </div> */}
-          </Cell>
-          <Cell className="resume-right-col" col={8}>
+          <Cell className="resume-right-col" col={10}>
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
             <Education
@@ -45,17 +36,21 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2019}
+              endYear={2020}
+              jobName="Junior developer - Strive School | Copenhagen, Denmark "
+              jobDescription="Stared working with Strive.School.Its an online program where I have learnt working with the both Frontend and Backend tools.
+               I worked on Team projects contributed my work in developing App with the other developers."
             />
 
             <Experience
-              startYear={2012}
-              endYear={2016}
-              jobName="Second Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2013}
+              endYear={2015}
+              jobName="Technical Suppoprt Associate - IBM | Hyderabad, India"
+              jobDescription="Maintaining and troubleshooting the use of the local area networks LAN, Wide area networks WAN, connections to the internet and peripheral equipment.
+              Evaluating and installing computer Hardware, Networking software, and Software applications.
+              Dealing with Network Connectivity troubleshooting, TCP/IP, Dial-up, Token Ring, Ethernet, LAN/WAN Identifying Opportunity & Implementing Process Improvements.
+              "
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             {/* <h2>Skills</h2>
