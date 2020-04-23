@@ -20,20 +20,25 @@ class Resume extends Component {
             </div> */}
           </Cell>
           <Cell className="resume-right-col" col={8}>
+            <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
-
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2018}
+              endYear={2021}
+              schoolName="Cisco Certified Network Associate"
+              schoolDescription="As a CCNA certification holder I have the ability to install, set up, configure, troubleshoot and operate a medium-sized routed and switched computer network."
             />
-
+            <Education
+              startYear={2012}
+              endYear={2014}
+              schoolName="Master of Sciences"
+              schoolDescription="Pursed Masters in Networking and  Security from Cork Institution of Technology - Cork, Ireland."
+            />
             <Education
               startYear={2007}
-              endYear={2009}
-              schoolName="My 2nd University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              endYear={2011}
+              schoolName="Bachelors of Technology"
+              schoolDescription="Pursed Bachelors in Computer Science Engineering from Jawaharlal Nehru Technology University - Hyderabad, India "
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
