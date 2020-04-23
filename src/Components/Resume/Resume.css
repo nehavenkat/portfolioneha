@@ -2,14 +2,15 @@
   background: #27221f;
   color: white !important;
   padding: 2em;
+  margin-top: -152px;
 }
-
 .mdl-grid {
   display: flex;
   flex-flow: row wrap;
   margin: 0 auto 0 auto;
   align-items: stretch;
   color: white !important;
+  margin-top: 15px !important;
 }
 h2 {
   text-align: center;
