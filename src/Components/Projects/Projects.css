@@ -1,7 +1,7 @@
 /* body {
   background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
 } */
-.projects {
+/* .projects {
   justify-content: center;
 }
 .card {
@@ -21,22 +21,150 @@
 .container-fluid.row {
   padding-top: 6em;
 }
-.card-img-top {
+/* .card-img-top {
   transform: scale(1);
   transition: transform 0.5s ease;
-}
-.card-img-top:hover {
+} */
+/* .card-img-top:hover {
   transform: scale(1.8);
-}
+} */
 .all-cards {
-  background: #27221f;
-  padding: 2em;
-  margin-top: 50px;
+  /* background: #27221f; */
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-right: 100px;
+  margin-left: 75px;
 }
 .overflow {
   overflow: hidden;
 }
 .col-md-4 {
-  border-radius: 10px !important;
-  padding: 25px;
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.mainProjects {
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+}
+
+.leftMainProjects {
+  flex: 1;
+}
+
+.rightMainProjects {
+  flex: 1;
+}
+
+/* .middleMainProjects {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+} */
+
+.card {
+  height: 450px;
+}
+
+.card__content {
+  overflow: hidden;
+  padding: 1px;
+  justify-content: center;
+}
+
+.displayCards {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 20px;
+  /* padding-right: 10px */
+}
+
+/* div setting */
+#displayCardsCol {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.ulList {
+  list-style: none;
+  text-align: center;
+}
+.divImg {
+  width: 400px;
+  /* height: 400px; */
+  /* overflow: hidden; */
+}
+
+img {
+  /* border-radius: 0px; */
+}
+
+h3 {
+  font-weight: bold;
+  font-size: larger;
+  color: darkcyan;
+  padding-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.list-group-item {
+  background-color: #eaf3be;
+}
+
+@media screen and (max-width: 1440px) {
+  .mainProjects {
+    min-height: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mainProjects {
+    min-height: 100vh !important;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lblFullStack {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #imgRushita {
+    width: 25%;
+  }
+  .displayData {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .main {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .divImg {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .divImg {
+    width: 250px;
+    height: auto;
+  }
 }

@@ -1,24 +1,167 @@
 import React, { Component } from "react";
-import Card from "../../Components/Projects/Card";
 import "../Projects/Projects.css";
 
 export default class Projects extends Component {
   render() {
     return (
-      <div className="container d-flex justify-content-center all-cards">
-        <div className="row">
-          <div className="col-md-4">
-            <Card
-              player="https://www.youtube.com/watch?v=_tBZM1sNT9M"
-              title="first project"
-            />
+      <div className=" d-flex all-cards">
+        <div className="mainProjects">
+          <div className="leftMainProjects"></div>
+          <div className="middleMainProjects">
+            <div className="displayCards">
+              <ul className="ulList">
+                <li>
+                  <div className="card">
+                    <div className="divImg">
+                      <div
+                        style={{
+                          position: "relative",
+                          paddingBottom: "56.25%",
+                          height: "0",
+                        }}
+                      >
+                        <iframe
+                          src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                          frameborder="0"
+                          webkitallowfullscreen
+                          mozallowfullscreen
+                          allowfullscreen
+                          style={{
+                            position: "absolute",
+                            top: "0",
+                            left: "0",
+                            width: "100%",
+                            height: "100%",
+                          }}
+                        ></iframe>
+                      </div>
+                    </div>
+                    <div className="card__content">
+                      <h3>LinkedIn App</h3>
+                      <p>
+                        {" "}
+                        The FE is builded using HTML, CSS, JS and React <br />
+                        The BE is builded using MongoDB
+                      </p>
+                    </div>
+
+                    <div className="card-footer">
+                      <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                        Github Front End Repo
+                      </a>
+                      <hr />
+                      <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                        Github Back End Repo
+                      </a>
+                    </div>
+                  </div>{" "}
+                </li>{" "}
+              </ul>
+            </div>
           </div>
-          <div className="col-md-4">
-            <Card title="first project" />
+
+          <div className="displayCards">
+            <ul className="ulList">
+              <li>
+                <div className="card">
+                  <div className="divImg">
+                    <div
+                      style={{
+                        position: "relative",
+                        paddingBottom: "56.25%",
+                        height: "0",
+                      }}
+                    >
+                      <iframe
+                        src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                        frameborder="0"
+                        webkitallowfullscreen
+                        mozallowfullscreen
+                        allowfullscreen
+                        style={{
+                          position: "absolute",
+                          top: "0",
+                          left: "0",
+                          width: "100%",
+                          height: "100%",
+                        }}
+                      ></iframe>
+                    </div>
+                  </div>
+                  <div className="card__content">
+                    <h3>LinkedIn App</h3>
+                    <p>
+                      {" "}
+                      The FE is builded using HTML, CSS, JS and React <br />
+                      The BE is builded using MongoDB
+                    </p>
+                  </div>
+
+                  <div className="card-footer">
+                    <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                      Github Front End Repo
+                    </a>
+                    <hr />
+                    <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                      Github Back End Repo
+                    </a>
+                  </div>
+                </div>{" "}
+                {/* end of card */}
+              </li>{" "}
+              {/* end of li */}
+            </ul>
           </div>
-          <div className="col-md-4">
-            <Card title="first project" />
-          </div>
+        </div>
+        <div className="displayCards">
+          <ul className="ulList">
+            <li>
+              <div className="card">
+                <div className="divImg">
+                  <div
+                    style={{
+                      position: "relative",
+                      paddingBottom: "56.25%",
+                      height: "0",
+                    }}
+                  >
+                    <iframe
+                      src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                      frameborder="0"
+                      webkitallowfullscreen
+                      mozallowfullscreen
+                      allowfullscreen
+                      style={{
+                        position: "absolute",
+                        top: "0",
+                        left: "0",
+                        width: "100%",
+                        height: "100%",
+                      }}
+                    ></iframe>
+                  </div>
+                </div>
+                <div className="card__content">
+                  <h3>Projects and Reviews</h3>
+                  <p>
+                    {" "}
+                    The project is builded using PostGress Database
+                    <br />
+                    It is shown in Postman and PGAdmin
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                    Github Back End Repo
+                  </a>
+                  <hr />
+                  <a></a>
+                </div>
+              </div>{" "}
+              {/* end of card */}
+            </li>{" "}
+            {/* end of li */}
+          </ul>
         </div>
       </div>
     );
