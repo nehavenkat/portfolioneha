@@ -4,7 +4,7 @@ import "../Projects/Projects.css";
 export default class Projects extends Component {
   render() {
     return (
-      <div className=" d-flex all-cards">
+      <div className="d-flex all-cards">
         <div className="mainProjects">
           <div className="leftMainProjects"></div>
           <div className="middleMainProjects">

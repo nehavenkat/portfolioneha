@@ -72,9 +72,8 @@
 }
 
 .card__content {
-  overflow: hidden;
+  overflow: auto;
   padding: 1px;
-  justify-content: center;
 }
 
 .displayCards {
@@ -107,16 +106,15 @@
 h3 {
   font-weight: bold;
   font-size: larger;
-  color: darkcyan;
+  color: rgb(216, 35, 171);
   padding-top: 20px;
   margin-bottom: 0px;
   padding: 10px;
+  justify-content: center;
 }
-
-.list-group-item {
-  background-color: #eaf3be;
+.a {
+  color: rgb(216, 35, 171);
 }
-
 @media screen and (max-width: 1440px) {
   .mainProjects {
     min-height: 100vh !important;
