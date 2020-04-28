@@ -21,7 +21,7 @@ export default class Projects extends Component {
                         }}
                       >
                         <iframe
-                          src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                          src="https://www.loom.com/embed/e4ece6ff8d7e4d98b44c81717862d27a"
                           frameborder="0"
                           webkitallowfullscreen
                           mozallowfullscreen
@@ -46,11 +46,14 @@ export default class Projects extends Component {
                     </div>
 
                     <div className="card-footer">
-                      <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                      <a
+                        href="https://github.com/nehavenkat/LinkedIn-Redux-FE"
+                        target="_blank"
+                      >
                         Github Front End Repo
                       </a>
                       <hr />
-                      <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                      <a href="https://github.com/nehavenkat/linkedIn-neha-michael-fayju">
                         Github Back End Repo
                       </a>
                     </div>
@@ -89,7 +92,7 @@ export default class Projects extends Component {
                     </div>
                   </div>
                   <div className="card__content">
-                    <h3>LinkedIn App</h3>
+                    <h3>Meety App</h3>
                     <p>
                       {" "}
                       The FE is builded using HTML, CSS, JS and React <br />
@@ -126,7 +129,7 @@ export default class Projects extends Component {
                     }}
                   >
                     <iframe
-                      src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                      src="https://www.loom.com/embed/78c8ad7639b7440d8180a7d275a3c77d"
                       frameborder="0"
                       webkitallowfullscreen
                       mozallowfullscreen
@@ -155,7 +158,9 @@ export default class Projects extends Component {
                     Github Back End Repo
                   </a>
                   <hr />
-                  <a></a>
+                  <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                    Github Back End Repo
+                  </a>
                 </div>
               </div>{" "}
               {/* end of card */}
