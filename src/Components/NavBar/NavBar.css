@@ -4,10 +4,19 @@
   line-height: 64px;
   padding: 0 24px;
 }
-/* .mdl-layout__header {
-  background-color: transparent !important;
+@media only screen and (max-width: 500px) {
+  .header-title {
+    display: block;
+    color: rgb(255, 255, 255);
+    line-height: 64px;
+    padding: 0 24px;
+  }
+  /* .mdl-layout__header {
+    background-color: transparent !important;
+    z-index: inherit 10000;
+  }*/
 }
-.mdl-navigation__link {
+/*.mdl-navigation__link {
   color: white !important;
 }
 .nav-cv {
