@@ -71,3 +71,78 @@ img {
 .resume-right-col {
   margin-top: -75px !important;
 }
+@media only screen and (max-width: 500px) {
+  *.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    height: 450px;
+    background: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 5px solid green;
+  }
+
+  .contact-grid p {
+    font-weight: bold;
+  }
+
+  .contact-grid hr {
+    border-top: 5px solid white;
+    width: 50%;
+    margin: auto;
+  }
+
+  .contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+
+  svg {
+    font-size: x-large;
+  }
+  img {
+    padding: 5px;
+    border: 2px solid white;
+  }
+
+  .mdl-list__item {
+    color: white;
+  }
+
+  .mdl-list {
+    margin-top: 60px;
+  }
+
+  .container-icon div {
+    padding: 80px;
+  }
+  .contact-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+  }
+  .contact-text {
+    font-size: 24px;
+    margin: 10px;
+  }
+  .contact-box {
+    display: flex;
+  }
+  .mdl-grid {
+    margin-top: 158px !important;
+  }
+  .resume-right-col {
+    margin-top: -75px !important;
+  }
+}
