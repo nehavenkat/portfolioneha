@@ -17,3 +17,25 @@ h2 {
   text-transform: uppercase;
   color: rgb(216, 35, 171);
 }
+@media only screen and (max-width: 500px) {
+  .resume-right-col {
+    background: #27221f;
+    color: white !important;
+    padding: 2em;
+    margin-top: -152px;
+  }
+  .mdl-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto 0 auto;
+    align-items: stretch;
+    color: white !important;
+    margin-top: 18px !important;
+  }
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(216, 35, 171);
+    font-size: x-large;
+  }
+}
