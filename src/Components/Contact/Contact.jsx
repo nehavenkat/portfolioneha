@@ -18,8 +18,9 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Neha Setty</h2>
             <img
+              className="contactimg"
               src="https://nofiredrills.com/wp-content/uploads/2016/10/myavatar.png"
-              alt="avatar"
+              alt="contactimg"
               style={{ height: "250px" }}
             />
           </Cell>

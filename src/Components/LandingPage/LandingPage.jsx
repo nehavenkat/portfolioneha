@@ -12,9 +12,9 @@ export default class LandingPage extends Component {
           {/* <img className="bg" src={Banner} alt="technology" /> */}
           <Cell col={12}>
             <img
+              className="landingimg"
               src="https://nofiredrills.com/wp-content/uploads/2016/10/myavatar.png"
-              alt="avatar"
-              className="avatar-img"
+              alt="landingimg"
             />
 
             <div className="banner-text">
