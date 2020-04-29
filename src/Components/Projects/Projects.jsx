@@ -53,7 +53,10 @@ export default class Projects extends Component {
                         Github Front End Repo
                       </a>
                       <hr />
-                      <a href="https://github.com/nehavenkat/linkedIn-neha-michael-fayju">
+                      <a
+                        href="https://github.com/nehavenkat/linkedIn-neha-michael-fayju"
+                        target="_blank"
+                      >
                         Github Back End Repo
                       </a>
                     </div>
@@ -76,7 +79,7 @@ export default class Projects extends Component {
                       }}
                     >
                       <iframe
-                        src="https://www.loom.com/embed/8fa34a6517ec4c7090cec6e176e98268"
+                        src="https://www.loom.com/embed/ea8d4180d2eb493a8d4c4ed0c0499844"
                         frameborder="0"
                         webkitallowfullscreen
                         mozallowfullscreen
@@ -101,11 +104,17 @@ export default class Projects extends Component {
                   </div>
 
                   <div className="card-footer">
-                    <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                    <a
+                      href="https://github.com/faizanbardai/meety-fe"
+                      target="_blank"
+                    >
                       Github Front End Repo
                     </a>
                     <hr />
-                    <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                    <a
+                      href="https://github.com/faizanbardai/meety-be"
+                      target="_blank"
+                    >
                       Github Back End Repo
                     </a>
                   </div>
@@ -154,11 +163,17 @@ export default class Projects extends Component {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                  <a
+                    href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend"
+                    target="_blank"
+                  >
                     Github Back End Repo
                   </a>
                   <hr />
-                  <a href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend">
+                  <a
+                    href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend"
+                    target="_blank"
+                  >
                     Github Back End Repo
                   </a>
                 </div>
