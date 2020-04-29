@@ -19,10 +19,23 @@ export default class NavBar extends Component {
               </Link>
 
               <Navigation>
-                <a href="aboutme">About Me</a>
+                <Link to="/aboutme">
+                  <div>About me</div>
+                </Link>
+                <Link to="/resume">
+                  <div>Resume</div>
+                </Link>
+                <Link to="/projects">
+                  <div>Projects</div>
+                </Link>
+                <Link to="/contact">
+                  <div>Contact</div>
+                </Link>
+
+                {/* <a href="aboutme">About Me</a>
                 <a href="resume">Resume</a>
                 <a href="projects">Projects</a>
-                <a href="contact">Contact</a>
+                <a href="contact">Contact</a> */}
               </Navigation>
             </Header>
             {/* 
