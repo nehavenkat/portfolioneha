@@ -48,11 +48,11 @@ svg {
     background: #27221f;
     color: white !important;
     padding: 2em;
-    margin-top: 50px;
+    margin-top: -29px;
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;

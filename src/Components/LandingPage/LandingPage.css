@@ -152,3 +152,15 @@ h1 {
     color: rgb(216, 35, 171) !important;
   }
 }
+@media only screen and (max-width: 500px) {
+  .banner-text p {
+    color: white;
+    font-size: 13px;
+  }
+  .landingimg {
+    margin-top: 85px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+  }
+}

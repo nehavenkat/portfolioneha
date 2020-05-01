@@ -73,16 +73,26 @@ img {
 }
 @media only screen and (max-width: 500px) {
   .contactimg {
-    padding: 5px;
-    border: 2px solid #fff;
+    padding: 10px;
+    border: 0px solid #fff;
     width: 170px;
-    margin: -102px;
+    margin: -110px;
   }
   .contact-text {
     font-size: 12px;
-    margin: 2px;
+    margin: 1px;
   }
   svg {
     font-size: large;
+  }
+  .mdl-list {
+    padding: 26px 0px 0px 0px;
+  }
+  .mdl-list__item {
+    color: white;
+    padding: 0px;
+  }
+  .contact-grid {
+    width: 18rem !important;
   }
 }
