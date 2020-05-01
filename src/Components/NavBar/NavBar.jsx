@@ -1,57 +1,63 @@
 import React, { Component } from "react";
-import { Header, Navigation, Content, Layout } from "react-mdl";
+import "./NavBar.css";
 import { Link } from "react-router-dom";
-import "../NavBar/NavBar.css";
-
-export default class NavBar extends Component {
+import { FaBars } from "react-icons/all";
+class NavBar extends Component {
+  state = { burgerCheckBox: false };
+  onCheckChange = (e) => {
+    console.log(e.target.checked);
+    this.setState({ burgerCheckBox: e.target.checked });
+  };
+  closeMenu = () => {
+    this.setState({ burgerCheckBox: false });
+  };
   render() {
     return (
-      <div>
-        <div style={{ height: "100px", position: "relative" }}>
-          <Layout>
-            <Header
-              transparent
-              title="Neha Venkat Setty"
-              style={{ color: "white" }}
-            >
-              <Link to="/">
-                <div className="header-title">Home</div>
+      <div className="nav-div-container">
+        <div className="spacer-title"></div>
+        <Link
+          style={{ textDecoration: "none", color: "white" }}
+          className="nav-div-head"
+          to="/"
+        >
+          <div className="header-title">Neha Venkat Setty</div>
+        </Link>
+        <div className="spacer"></div>
+        <div className="hamburger">
+          <label htmlFor="toggle">
+            <FaBars />
+          </label>
+          <input
+            type="checkbox"
+            id="toggle"
+            checked={this.state.burgerCheckBox}
+            onChange={(e) => this.onCheckChange(e)}
+          />
+          <div className="menu">
+            <div className="nav-div nav-div-title" onClick={this.closeMenu}>
+              <Link style={{ textDecoration: "none" }} to="/aboutme">
+                <div className="nav-cv">About me</div>
               </Link>
-
-              <Navigation>
-                <Link to="/aboutme">
-                  <div>About me</div>
-                </Link>
-                <Link to="/resume">
-                  <div>Resume</div>
-                </Link>
-                <Link to="/projects">
-                  <div>Projects</div>
-                </Link>
-                <Link to="/contact">
-                  <div>Contact</div>
-                </Link>
-
-                {/* <a href="aboutme">About Me</a>
-                <a href="resume">Resume</a>
-                <a href="projects">Projects</a>
-                <a href="contact">Contact</a> */}
-              </Navigation>
-            </Header>
-            {/* 
-            <Drawer>
-              <Navigation>
-                <a href="aboutme">About Me</a>
-                <a href="resume">Resume</a>
-                <a href="projects">Projects</a>
-                <a href="contact">Contact</a>
-              </Navigation>
-            </Drawer> */}
-            <Content />
-          </Layout>
-          {/* </Layout> */}
+            </div>
+            <div className="nav-div nav-div-title" onClick={this.closeMenu}>
+              <Link style={{ textDecoration: "none" }} to="/resume">
+                <div className="nav-cv">Resume</div>
+              </Link>
+            </div>
+            <div className="nav-div nav-div-title" onClick={this.closeMenu}>
+              <Link style={{ textDecoration: "none" }} to="/projects">
+                <div className="nav-cv">Projects</div>
+              </Link>
+            </div>
+            <div className="nav-div nav-div-title" onClick={this.closeMenu}>
+              <Link style={{ textDecoration: "none" }} to="/contact">
+                <div className="nav-cv">Contact</div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     );
   }
 }
+export default NavBar;
