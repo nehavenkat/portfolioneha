@@ -1,3 +1,7 @@
+.resume-container {
+  margin-top: 150px !important;
+}
+
 .resume-right-col {
   background: #27221f;
   color: white !important;
@@ -18,6 +22,9 @@ h2 {
   color: rgb(216, 35, 171);
 }
 @media only screen and (max-width: 500px) {
+  .resume-container {
+    margin-top: 115px !important;
+  }
   .resume-right-col {
     background: #27221f;
     color: white !important;

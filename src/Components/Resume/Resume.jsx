@@ -8,9 +8,10 @@ import "../Resume/Resume.css";
 class Resume extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container resume-container">
         <Grid>
           <Cell className="resume-right-col" col={10}>
+            <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
             <Education
               startYear={2018}

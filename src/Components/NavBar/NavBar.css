@@ -13,11 +13,12 @@
 
 .nav-cv {
   position: relative;
-  color: rgb(216, 35, 171);
+  color: white;
   font-weight: bold;
   font-size: 24px;
   margin: 0;
   padding-bottom: 3px;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-cv:hover {
@@ -47,12 +48,12 @@
   font-weight: bold;
 }
 
-.header-title:hover {
+/* .header-title:hover {
   text-shadow: 1px 1px #00bfff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   position: absolute;
   background: none repeat scroll 0 0 transparent;
-}
+} */
 
 .nav-div a {
   color: #00bfff;
@@ -69,7 +70,7 @@
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #00bfff;
+  background: rgb(216, 35, 171);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
