@@ -14,14 +14,8 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
             <Education
-              startYear={2018}
-              endYear={2021}
-              schoolName="Cisco Certified Network Associate"
-              schoolDescription="As a CCNA certification holder I have the ability to install, set up, configure, troubleshoot and operate a medium-sized routed and switched computer network."
-            />
-            <Education
-              startYear={2012}
-              endYear={2014}
+              startYear={2011}
+              endYear={2013}
               schoolName="Master of Sciences"
               schoolDescription="Pursed Masters in Networking and  Security from Cork Institution of Technology - Cork, Ireland."
             />
@@ -53,23 +47,15 @@ class Resume extends Component {
               "
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            {/* <h2>Skills</h2>
-             <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      /> */}
+            <h2>Certifications</h2>
+            <Education
+              startYear={2018}
+              endYear={2021}
+              schoolName="Cisco Certified Network Associate"
+              schoolDescription="As a CCNA certification holder I have the ability to install, set up, configure, troubleshoot and operate a medium-sized routed and switched computer network."
+            />
+
+            <hr style={{ borderTop: "3px solid #e22947" }} />
           </Cell>
         </Grid>
       </div>
