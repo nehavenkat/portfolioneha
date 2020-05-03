@@ -151,8 +151,6 @@ h1 {
     text-align: center;
     color: rgb(216, 35, 171) !important;
   }
-}
-@media only screen and (max-width: 500px) {
   .banner-text p {
     color: white;
     font-size: 13px;
