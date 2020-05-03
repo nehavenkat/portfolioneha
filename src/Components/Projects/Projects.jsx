@@ -21,6 +21,7 @@ export default class Projects extends Component {
                         }}
                       >
                         <iframe
+                          title="LinkedIn App"
                           src="https://www.loom.com/embed/e4ece6ff8d7e4d98b44c81717862d27a"
                           frameborder="0"
                           webkitallowfullscreen
@@ -49,6 +50,7 @@ export default class Projects extends Component {
                       <a
                         href="https://github.com/nehavenkat/LinkedIn-Redux-FE"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Github Front End Repo
                       </a>
@@ -56,6 +58,7 @@ export default class Projects extends Component {
                       <a
                         href="https://github.com/nehavenkat/linkedIn-neha-michael-fayju"
                         target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Github Back End Repo
                       </a>
@@ -79,6 +82,7 @@ export default class Projects extends Component {
                       }}
                     >
                       <iframe
+                        title="Meety App"
                         src="https://www.loom.com/embed/ea8d4180d2eb493a8d4c4ed0c0499844"
                         frameborder="0"
                         webkitallowfullscreen
@@ -107,6 +111,7 @@ export default class Projects extends Component {
                     <a
                       href="https://github.com/faizanbardai/meety-fe"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github Front End Repo
                     </a>
@@ -114,6 +119,7 @@ export default class Projects extends Component {
                     <a
                       href="https://github.com/faizanbardai/meety-be"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Github Back End Repo
                     </a>
@@ -138,6 +144,7 @@ export default class Projects extends Component {
                     }}
                   >
                     <iframe
+                      title="Projects and Reviews"
                       src="https://www.loom.com/embed/78c8ad7639b7440d8180a7d275a3c77d"
                       frameborder="0"
                       webkitallowfullscreen
@@ -166,6 +173,7 @@ export default class Projects extends Component {
                   <a
                     href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Back End Repo
                   </a>
@@ -173,6 +181,7 @@ export default class Projects extends Component {
                   <a
                     href="https://github.com/nehavenkat/Products-Reviews-PostGres-Backend"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Github Back End Repo
                   </a>
