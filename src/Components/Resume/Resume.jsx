@@ -14,6 +14,13 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Education</h2>
             <Education
+              startYear={2019}
+              endYear={2020}
+              schoolName="Full Stack Development | Strive.School "
+              schoolDescription="Stared working with Strive.School.Its an online program where I have learnt working with the both Frontend and Backend tools.
+               I worked on Team projects contributed my work in developing App with the other developers."
+            />
+            <Education
               startYear={2011}
               endYear={2013}
               schoolName="Master of Sciences"
@@ -28,13 +35,24 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Experience</h2>
+            <Experience
+              startYear={2020}
+              endYear={2020}
+              jobName=" Software Developer Intern - BlueBenu | Denmark "
+              jobDescription="Stared as an Intern in Septwmber on developing mobile version of the BlueBenu website. I am mainly working on HTML and CSS and JavaScript and even on MongoDB."
+            />
+            <Experience
+              startYear={2020}
+              endYear={2020}
+              jobName=" Web-Developer - Make It Good Again | Denmark "
+              jobDescription="Stared in August as an Intern on developing mobile version of the MIGA website. I am mainly working on HTMLSlim and SCSS and JavaScript with some code in Ruby."
+            />
 
             <Experience
-              startYear={2019}
+              startYear={2020}
               endYear={2020}
-              jobName="Junior developer - Strive School | Copenhagen, Denmark "
-              jobDescription="Stared working with Strive.School.Its an online program where I have learnt working with the both Frontend and Backend tools.
-               I worked on Team projects contributed my work in developing App with the other developers."
+              jobName=" Front-end Developer - Station | Copenhagen, Denmark "
+              jobDescription="Stared in JUNE with developing website for Station where the student can Create Account,Login to his Account and the subscribe to strive payment."
             />
 
             <Experience

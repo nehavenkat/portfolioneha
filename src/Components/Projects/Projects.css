@@ -16,13 +16,13 @@
   background-size: cover;
 }
 
-.leftMainProjects {
+/* .leftMainProjects {
   flex: 1;
-}
+} */
 
-.rightMainProjects {
+/* .rightMainProjects {
   flex: 1;
-}
+} */
 
 /* .middleMainProjects {
   flex: 3;
@@ -44,7 +44,7 @@
   display: flex;
   flex: 1;
   flex-wrap: wrap;
-  padding: 20px;
+  /* padding: 20px; */
   /* padding-right: 10px */
 }
 
