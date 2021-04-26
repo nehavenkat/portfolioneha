@@ -22,13 +22,12 @@ export default class AboutMe extends Component {
               <p>
                 {" "}
                 <span>
-                  Hello, I am Neha Setty, residing in Copenhagen, Denmark.
+                  Hello!! I am Neha Setty residing in Copenhagen, Denmark.
                 </span>
                 <span>
-                  I am passinated about coding. I have been working with
-                  Strive.School from OCT 2019, a dedicated 6 months Boot Camp
-                  program where I have learned about Full Stack Development. I
-                  worked on many projects during the program.
+                  I am passinated about coding. I am working as a Junior Developer with A Greater Mass.
+                  I have recently Graduated from Strive.School which was a dedicated 6 months Boot Camp
+                  program where I have enchanced my coding skills. I worked on many projects during the program.
                 </span>
                 <span>
                   I'm a junior full stack developer, looking to learn and work
