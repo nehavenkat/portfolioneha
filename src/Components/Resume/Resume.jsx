@@ -37,22 +37,28 @@ class Resume extends Component {
             <h2>Experience</h2>
             <Experience
               startYear={2020}
+              endYear={2021}
+              jobName=" Junior Developer - A Greater Mass | UK "
+              jobDescription="Developing an App for the company using React-Native  and Mogo Database"
+            />
+            <Experience
+              startYear={2020}
               endYear={2020}
               jobName=" Software Developer Intern - BlueBenu | Denmark "
-              jobDescription="Stared as an Intern in Septwmber on developing mobile version of the BlueBenu website. I am mainly working on HTML and CSS and JavaScript and even on MongoDB."
+              jobDescription="Worked as an Intern from September on developing an App for BlueBenu. I am mainly worked on HTML, CSS ,JavaScript and  on Mongo Database ."
             />
             <Experience
               startYear={2020}
               endYear={2020}
               jobName=" Web-Developer - Make It Good Again | Denmark "
-              jobDescription="Stared in August as an Intern on developing mobile version of the MIGA website. I am mainly working on HTMLSlim and SCSS and JavaScript with some code in Ruby."
+              jobDescription="Worked in August as an Intern on developing mobile version of the MIGA website. I am mainly working on HTMLSlim and SCSS and JavaScript with some hands on experience with Ruby on Rails."
             />
 
             <Experience
               startYear={2020}
               endYear={2020}
               jobName=" Front-end Developer - Station | Copenhagen, Denmark "
-              jobDescription="Stared in JUNE with developing website for Station where the student can Create Account,Login to his Account and the subscribe to strive payment."
+              jobDescription="Worked in JUNE with developing a SPA for Station where the student can Create Account,Login to his Account and the subscribe to strive payment."
             />
 
             <Experience
@@ -61,8 +67,14 @@ class Resume extends Component {
               jobName="Technical Suppoprt Associate - IBM | Hyderabad, India"
               jobDescription="Maintaining and troubleshooting the use of the local area networks LAN, Wide area networks WAN, connections to the internet and peripheral equipment.
               Evaluating and installing computer Hardware, Networking software, and Software applications.
-              Dealing with Network Connectivity troubleshooting, TCP/IP, Dial-up, Token Ring, Ethernet, LAN/WAN Identifying Opportunity & Implementing Process Improvements.
+              Dealing with Network Connectivity troubleshooting, TCP/IP, Dial-up, Token Ring, Ethernet, LAN/WAN Identifying Opportunity and Implementing Process Improvements.
               "
+            />
+              <Experience
+              startYear={2012}
+              endYear={2012}
+              jobName="Network Associate- Duke Company  |Cork, Ireland"
+              jobDescription=" Maintained the quality of the systems. Provided technical support for the design and deployment of network solution. Built configuration and deployed network equipment."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Certifications</h2>
