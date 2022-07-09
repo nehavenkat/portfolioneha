@@ -3,8 +3,8 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaReact,
-  FaNodeJs,
-  DiMongodb,
+  DiVisualstudio,
+  FaVuejs,
   DiPostgresql,
 } from "react-icons/all";
 import "../AboutMe/AboutMe.css";
@@ -18,22 +18,20 @@ export default class AboutMe extends Component {
           <Grid>
             <Cell col={3}></Cell>
             <Cell className="right-col" col={6}>
-              <h1> Neha Venkat Setty.</h1>
+              <h1> Hello!!</h1>
               <p>
                 {" "}
                 <span>
-                  Hello!! I am Neha Setty residing in Copenhagen, Denmark.
+                  I am a Software Developer residing in Copenhagen, Denmark.
                 </span>
                 <span>
-                  I am passinated about coding. I am working as a Junior Developer with A Greater Mass.
-                  I have recently Graduated from Strive.School which was a dedicated 6 months Boot Camp
-                  program where I have enchanced my coding skills. I worked on many projects during the program.
+                  I am self-motivated IT professional with passion for building interactive and responsive websites.
+                  A proactive problem solver with good communication skills, over the years I have developed an adept knowledge of JavaScript, React, Vue, C#, Html and CSS. 
+                  I am structured, curious and a good team player. 
+
                 </span>
                 <span>
-                  I'm a junior full stack developer, looking to learn and work
-                  on creative and innovative ideas. My aim is to create
-                  high-performance websites and applications that look beautiful
-                  on all devices and browsers.
+                  Currently seeking to pursue an opportunity in a growing organization that will utilize and enhance my knowledge in software development.
                 </span>
               </p>
               <h4>Favorite Tools</h4>
@@ -50,10 +48,10 @@ export default class AboutMe extends Component {
                   <FaReact />
                 </div>
                 <div className="landing-icons">
-                  <FaNodeJs />
+                  <DiVisualstudio />
                 </div>
                 <div className="landing-icons">
-                  <DiMongodb />
+                  <FaVuejs />
                 </div>
                 <div className="landing-icons">
                   <DiPostgresql />

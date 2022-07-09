@@ -10,13 +10,12 @@
 .contact-grid {
   text-align: center;
   justify-content: center;
-  width: 60%;
-  height: 450px;
+  width: 50%;
+  height: 75%;
   background: black;
   color: white;
   margin-bottom: 20px;
   padding: 8px;
-  border: 5px solid green;
 }
 
 .contact-grid p {
@@ -37,17 +36,9 @@
 svg {
   font-size: x-large;
 }
-img {
-  padding: 5px;
-  border: 2px solid white;
-}
 
 .mdl-list__item {
   color: white;
-}
-
-.mdl-list {
-  margin-top: 60px;
 }
 
 .container-icon div {
@@ -72,12 +63,7 @@ img {
   margin-top: -75px !important;
 }
 @media only screen and (max-width: 500px) {
-  .contactimg {
-    padding: 10px;
-    border: 0px solid #fff;
-    width: 170px;
-    margin: -110px;
-  }
+  
   .contact-text {
     font-size: 12px;
     margin: 1px;
@@ -85,9 +71,7 @@ img {
   svg {
     font-size: large;
   }
-  .mdl-list {
-    padding: 26px 0px 0px 0px;
-  }
+
   .mdl-list__item {
     color: white;
     padding: 0px;

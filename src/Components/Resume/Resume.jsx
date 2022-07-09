@@ -10,81 +10,81 @@ class Resume extends Component {
     return (
       <div className="container resume-container">
         <Grid>
-          <Cell className="resume-right-col" col={10}>
+          <Cell className="resume-right-col" col={12}>
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Education</h2>
-            <Education
-              startYear={2019}
-              endYear={2020}
-              schoolName="Full Stack Development | Strive.School "
-              schoolDescription="Stared working with Strive.School.Its an online program where I have learnt working with the both Frontend and Backend tools.
-               I worked on Team projects contributed my work in developing App with the other developers."
-            />
-            <Education
-              startYear={2011}
-              endYear={2013}
-              schoolName="Master of Sciences"
-              schoolDescription="Pursed Masters in Networking and  Security from Cork Institution of Technology - Cork, Ireland."
-            />
-            <Education
-              startYear={2007}
-              endYear={2011}
-              schoolName="Bachelors of Technology"
-              schoolDescription="Pursed Bachelors in Computer Science Engineering from Jawaharlal Nehru Technology University - Hyderabad, India "
-            />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-
             <h2>Experience</h2>
+            <Experience
+              startYear={2022}
+              endYear={2022}
+              jobName=" Software Developer with focus on Front-end - Mouseflow | Copenhagen, Denmark "
+              jobDescription="⇒ Participating in daily standups by providing work progress, discussions on any blockers, red flags etc.
+              ⇒ Involved in Sprint planning (estimation of tickets), Retrospective (previous sprints updates), refinement sessions and Sprint demo.
+              ⇒ Used agile project management tool JIRA to structure and manage the project development.
+              ⇒ Designed and developed Mouseflow App using HTML, JS, CSS, and DOM elements to be responsive using media queries.
+              ⇒ Developed a Vue.js App for the partner portal to access the Application and allow the partners to have an inbound, outbound commissions."
+            />
+            <Experience
+              startYear={2021}
+              endYear={2022}
+              jobName=" Software Developer - Experis Denmark | Trasstrup, Denmark "
+              jobDescription=" ⇒ Developed website, creating services, and worked on User interface along with validations of the forms.
+              ⇒ Designed and developed API using ASP.NET and C#.NET.
+              ⇒ Used Model-View-Control (MVC) pattern for the development of the web applications.
+              ⇒ Used Observables and HTTP Client for asynchronous data transfer between the browser and the server.
+              ⇒ Implemented user interface guidelines and standards throughout the development and maintenance 
+               of the website using HTML, CSS, and JavaScript."
+            />
             <Experience
               startYear={2020}
               endYear={2021}
               jobName=" Junior Developer - A Greater Mass | UK "
-              jobDescription="Developing an App for the company using React-Native  and Mogo Database"
+              jobDescription="⇒Developed a React App for the end users to access the Application and answer the questionnaire available on the App.
+              ⇒Assisted by the Senior Developer with the Implementations of the login feature with MongoDB to manage, store and retrieve the user’s information.
+              ⇒Used ASANA as project management tool, before moving the code to production."
             />
             <Experience
               startYear={2020}
               endYear={2020}
               jobName=" Software Developer Intern - BlueBenu | Denmark "
-              jobDescription="Worked as an Intern from September on developing an App for BlueBenu. I am mainly worked on HTML, CSS ,JavaScript and  on Mongo Database ."
+              jobDescription="⇒ Collaborated closely with the other Interns to plan, design, and develop solutions for the Application.
+              ⇒ Implemented the code in React framework where only the employed user can access the Application 
+               and book an appointment with the company for garbage collection of the reusable waste.
+              ⇒ Developed the components and providers for Rest API calls, to fetch, and store data."
             />
             <Experience
               startYear={2020}
               endYear={2020}
-              jobName=" Web-Developer - Make It Good Again | Denmark "
-              jobDescription="Worked in August as an Intern on developing mobile version of the MIGA website. I am mainly working on HTMLSlim and SCSS and JavaScript with some hands on experience with Ruby on Rails."
+              jobName=" Web-Developer - Make It Good Again | Emdrup, Denmark "
+              jobDescription="⇒ Participated in daily scrum meetings and used agile project management tools to structure and manage the project development.
+              ⇒ Modified HTML, JavaScript, and CSS web pages to optimize the page’s performance for faster loading and browsing."
             />
-
             <Experience
-              startYear={2020}
-              endYear={2020}
-              jobName=" Front-end Developer - Station | Copenhagen, Denmark "
-              jobDescription="Worked in JUNE with developing a SPA for Station where the student can Create Account,Login to his Account and the subscribe to strive payment."
-            />
-
-            <Experience
-              startYear={2013}
-              endYear={2015}
-              jobName="Technical Suppoprt Associate - IBM | Hyderabad, India"
-              jobDescription="Maintaining and troubleshooting the use of the local area networks LAN, Wide area networks WAN, connections to the internet and peripheral equipment.
-              Evaluating and installing computer Hardware, Networking software, and Software applications.
-              Dealing with Network Connectivity troubleshooting, TCP/IP, Dial-up, Token Ring, Ethernet, LAN/WAN Identifying Opportunity and Implementing Process Improvements.
-              "
-            />
-              <Experience
-              startYear={2012}
-              endYear={2012}
-              jobName="Network Associate- Duke Company  |Cork, Ireland"
-              jobDescription=" Maintained the quality of the systems. Provided technical support for the design and deployment of network solution. Built configuration and deployed network equipment."
+              startYear={2014}
+              endYear={2016}
+              jobName="IT System Analyst - IBM | Hyderabad, India"
+              jobDescription="⇒ Analysed, designed and developed applications to the given specifications with phases of Software 
+              Development Life Cycle (SDLC).
+              ⇒ Interacted with software developers in identifying and developing advanced software solutions.
+              ⇒ Documented clear and testable business requirements, function design specifications and Providing 
+              business support during the post-implementation period."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>Certifications</h2>
+            <h2>Education</h2>
             <Education
-              startYear={2018}
-              endYear={2021}
-              schoolName="Cisco Certified Network Associate"
-              schoolDescription="As a CCNA certification holder I have the ability to install, set up, configure, troubleshoot and operate a medium-sized routed and switched computer network."
+              startYear={2019}
+              endYear={2020}
+              schoolName="Full Stack Development | Strive.School | Denmark"
             />
-
+            <Education
+              startYear={2011}
+              endYear={2013}
+              schoolName="Master of Sciences | CIT | Cork, Ireland"
+            />
+            <Education
+              startYear={2007}
+              endYear={2011}
+              schoolName="Bachelors of Technology | JNTU | Hyderabad, India"
+            />
             <hr style={{ borderTop: "3px solid #e22947" }} />
           </Cell>
         </Grid>

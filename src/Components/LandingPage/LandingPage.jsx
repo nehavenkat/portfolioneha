@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../LandingPage/LandingPage.css";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub,FaGitlab } from "react-icons/fa";
 import { Grid, Cell } from "react-mdl";
 // import Banner from "../Images/Banner.jpg";
 
@@ -24,10 +24,10 @@ export default class LandingPage extends Component {
               <br />
 
               <p className="text-landing">
-                HTML | CSS | Bootstrap | JavaScript | React
+                HTML | CSS | Bootstrap | JavaScript 
               </p>
               <p className="text-landing">
-                NodeJS | Express | MongoDB | PostgreSQL
+                React | Vue | C# | .Net | PostgreSQL
               </p>
 
               <div className="social-links">
@@ -50,6 +50,16 @@ export default class LandingPage extends Component {
                     target="_blank"
                   >
                     <FaGithub />
+                  </a>
+                </div>
+                <div className="landing-icons">
+                  {/* Github */}
+                  <a
+                    href="https://gitlab.com/vsneha"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <FaGitlab />
                   </a>
                 </div>
               </div>

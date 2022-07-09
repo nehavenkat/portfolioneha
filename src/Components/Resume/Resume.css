@@ -14,11 +14,10 @@
   margin: 0 auto 0 auto;
   align-items: stretch;
   color: white !important;
-  margin-top: 18px !important;
+  margin-top: -18px !important;
 }
 h2 {
   text-align: center;
-  text-transform: uppercase;
   color: rgb(216, 35, 171);
 }
 @media only screen and (max-width: 500px) {
@@ -37,11 +36,10 @@ h2 {
     margin: 0 auto 0 auto;
     align-items: stretch;
     color: white !important;
-    margin-top: 18px !important;
+    margin-top: -18px !important;
   }
   h2 {
     text-align: center;
-    text-transform: uppercase;
     color: rgb(216, 35, 171);
     font-size: x-large;
   }

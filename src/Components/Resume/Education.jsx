@@ -5,14 +5,13 @@ class Education extends Component {
   render() {
     return (
       <Grid>
-        <Cell col={4}>
-          <p>
-            {this.props.startYear} - {this.props.endYear}
-          </p>
+        <Cell col={10}>
+          <h3>{this.props.schoolName}</h3>
         </Cell>
-        <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.schoolName}</h4>
-          <p>{this.props.schoolDescription}</p>
+        <Cell col={2}>
+          <h3>
+            {this.props.startYear} - {this.props.endYear}
+          </h3>
         </Cell>
       </Grid>
     );

@@ -21,7 +21,6 @@ svg {
   background: #27221f;
   color: white !important;
   padding: 2em;
-  margin-top: 50px;
 }
 @media only screen and (max-width: 500px) {
   h1,

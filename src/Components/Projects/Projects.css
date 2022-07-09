@@ -11,25 +11,15 @@
 }
 
 .mainProjects {
-  display: flex;
-  height: 100vh;
-  background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
 }
-
-/* .leftMainProjects {
-  flex: 1;
-} */
-
-/* .rightMainProjects {
-  flex: 1;
-} */
-
-/* .middleMainProjects {
-  flex: 3;
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 30px;
-} */
 
 .card {
   height: 450px;
@@ -38,14 +28,6 @@
 .card__content {
   overflow: hidden;
   padding: 1px;
-}
-
-.displayCards {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  /* padding: 20px; */
-  /* padding-right: 10px */
 }
 
 /* div setting */
@@ -139,11 +121,6 @@ h3 {
     padding: 0px;
     margin: -18px;
     /* padding-right: 10px; */
-  }
-  .divImg {
-    width: 125px;
-    height: auto;
-    overflow: hidden;
   }
 
   h3 {
