@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import { Grid, List, ListItem } from "react-mdl";
-import {
-  MdContactMail,
-  MdPhoneAndroid,
-  FaLinkedin,
-  MdAddLocation,
-} from "react-icons/all";
+import { MdContactMail, MdPhoneAndroid, MdAddLocation } from "react-icons/all";
 
 import "../Contact/Contact.css";
 
