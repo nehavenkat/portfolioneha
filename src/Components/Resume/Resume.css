@@ -14,7 +14,7 @@
   margin: 0 auto 0 auto;
   align-items: stretch;
   color: white !important;
-  margin-top: -18px !important;
+  margin-top: 18px !important;
 }
 h2 {
   text-align: center;
@@ -36,7 +36,7 @@ h2 {
     margin: 0 auto 0 auto;
     align-items: stretch;
     color: white !important;
-    margin-top: -18px !important;
+    margin-top: 18px !important;
   }
   h2 {
     text-align: center;

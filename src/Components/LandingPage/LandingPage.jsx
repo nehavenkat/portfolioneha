@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "../LandingPage/LandingPage.css";
-import { FaLinkedinIn, FaGithub,FaGitlab } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaGitlab } from "react-icons/fa";
 import { Grid, Cell } from "react-mdl";
-// import Banner from "../Images/Banner.jpg";
 
 export default class LandingPage extends Component {
   render() {
@@ -24,7 +23,7 @@ export default class LandingPage extends Component {
               <br />
 
               <p className="text-landing">
-                HTML | CSS | Bootstrap | JavaScript 
+                HTML | CSS | Bootstrap | JavaScript
               </p>
               <p className="text-landing">
                 React | Vue | C# | .Net | PostgreSQL
