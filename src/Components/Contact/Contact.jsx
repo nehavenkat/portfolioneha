@@ -9,7 +9,7 @@ class Contact extends Component {
     return (
       <div className="contact-body">
         <Grid className="contact-grid">
-          <h2>Contact me!</h2>
+          <h2 style={{ paddingLeft: "30px" }}>Contact me!</h2>
           <List>
             <ListItem>
               <div className="contact-box">
